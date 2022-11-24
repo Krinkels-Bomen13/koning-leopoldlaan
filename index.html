@@ -236,7 +236,7 @@
                 feature: layer.feature,
                 variables: {}
             };
-            layer.bindTooltip((layer.feature.properties['Boomnummer'] !== null?String('<div style="color: #000000; font-size: 22pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Boomnummer']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_test_1'});
+            layer.bindTooltip((layer.feature.properties['Boomnummer'] !== null?String('<div style="color:#000000; font-size: 6pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Boomnummer']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_test_1'});
             labels.push(layer);
             totalMarkers += 1;
               layer.added = true;
